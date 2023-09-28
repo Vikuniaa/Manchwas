@@ -1,0 +1,175 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+BlackBigText{
+    font-size: 25;
+}
+
+White{
+    color: #f3f3f3;
+}
+Green{
+    color: rgb(7, 88, 7);
+    font-size: 15pt;
+}
+Black{
+    color: black;
+    font-size: 20pt;
+}
+BlackGreen{ 
+    color: rgb(43, 152, 85);
+    font-size: 15pt;
+}
+a{
+    color: rgb(10, 159, 135);
+    font-size: 15pt;
+}
+.fistaszek {
+    color: black;
+    font-size: 15pt;
+}
+p{
+    margin-top: 0.1cm;
+    margin-bottom: 0.1cm;
+    font-size: 15pt;
+    
+}
+h1{
+    font-size: 30pt;
+    padding:  20pt 10pt 10pt 450pt;
+    
+}
+
+
+.dexter{
+    border: 0px;
+margin: 15px;
+padding: 0px;
+background-color: rgb(34, 83, 34);
+font-size: 30px;
+color: aliceblue;
+}
+header{
+    background-color: rgb(34, 83, 34);
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 100px;
+    
+
+}
+
+
+.holder1{
+    position: relative;
+    left: 10px;
+    top: 15px;
+}
+.holder2{
+    position: relative;
+    left: 200px;
+    bottom: 49px;
+}
+.holder3{
+    position: relative;
+    left: 350px;
+    bottom: 115px ;
+}
+
+.holder1:hover .Block{
+    display:block;
+    position:absolute;
+    top:50px;
+    z-index:9999;
+    width:400px;
+}
+.holder2:hover .Block{
+    display:block;
+    position:absolute;
+    top:50px;
+    z-index:9999;
+    width:400px;
+}
+.holder3:hover .Block{
+    display:block;
+    position:absolute;
+    top:50px;
+    z-index:9999;
+    width:400px;
+}
+
+
+
+.poster{
+    position:relative;
+    margin:100px auto;
+    background:#ff6600;
+    height:200px;
+    width:150px;
+}
+.Block{
+    display:none;
+    margin-left:0px;
+    padding:10px;
+    margin-top: 0px;
+    background:#f3f3f3;
+    height:200px;
+
+    -moz-box-shadow:0 5px 5px rgba(0,0,0,0.3);
+    -webkit-box-shadow:0 5px 5px rgba(0,0,0,0.3);
+    box-shadow:0 5px 5px rgba(0,0,0,0.3);  
+}
+   
+.vl {
+    border-left: 6px solid green;
+    height: 1000px;
+    position: absolute;
+    left: 19%;
+    margin-left: 160px;
+    top: 108;
+}
+
+
+
+.button{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    color: black;
+    background-color: aliceblue;
+    font-size: 15px;
+}
+.test{
+    color: black;
+    
+    a{
+        color: black;
+    }
+}
+
+.lakomyi{
+    position: absolute;
+    left: 460;
+    top: 580;
+}
+.position2{
+    position: absolute;
+    left: 780;
+    top:580px;
+}
+
+
+.Albert{
+   position: absolute;
+   left: 460;
+   top:120;
+}
+.Masha{
+    padding-left: 620px ;
+}
+.position1{
+    position: absolute;
+    left: 750;
+    top:116;
+}
+
