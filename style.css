@@ -1,3 +1,4 @@
+@media screen and (max-width: 481px){
 *{
     font-family: 'Montserrat', sans-serif;
 }
@@ -172,4 +173,4 @@ header{
     left: 750;
     top:116;
 }
-
+}
