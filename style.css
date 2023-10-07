@@ -167,7 +167,7 @@ header{
     top:116;
 }
 
-@media only screen and (min-width: 600px) and (max-width: 800px) {
+@media only screen and (min-width: 0) and (max-width: 800px) {
     h1{
         font-size: 30pt;
         padding:  0%  10% 0% 20%;
