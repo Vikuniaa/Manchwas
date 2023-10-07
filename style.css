@@ -167,7 +167,7 @@ header{
     top:116;
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (min-width: 600px) (max-width: 800px) {
     h1{
         font-size: 30pt;
         padding:  0%  10% 0% 20%;
@@ -197,7 +197,7 @@ header{
     }
     .holder2{
         position: relative;
-        left: 100px;
+        left: 90px;
         bottom: 55px;
     }
     .holder3{
