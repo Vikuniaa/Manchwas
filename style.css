@@ -40,8 +40,6 @@ h1{
     padding:  20pt 10pt 10pt 450pt;
     
 }
-
-
 .dexter{
     border: 0px;
 margin: 15px;
@@ -60,7 +58,6 @@ header{
 
 }
 
-
 .holder1{
     position: relative;
     left: 10px;
@@ -76,6 +73,18 @@ header{
     left: 350px;
     bottom: 115px ;
 }
+.Block{
+    display:none;
+    margin-left:0px;
+    padding:10px;
+    margin-top: 0px;
+    background:#f3f3f3;
+    height:200px;
+
+    -moz-box-shadow:0 5px 5px rgba(0,0,0,0.3);
+    -webkit-box-shadow:0 5px 5px rgba(0,0,0,0.3);
+    box-shadow:0 5px 5px rgba(0,0,0,0.3);  
+}  
 
 .holder1:hover .Block{
     display:block;
@@ -98,9 +107,6 @@ header{
     z-index:9999;
     width:400px;
 }
-
-
-
 .poster{
     position:relative;
     margin:100px auto;
@@ -108,19 +114,6 @@ header{
     height:200px;
     width:150px;
 }
-.Block{
-    display:none;
-    margin-left:0px;
-    padding:10px;
-    margin-top: 0px;
-    background:#f3f3f3;
-    height:200px;
-
-    -moz-box-shadow:0 5px 5px rgba(0,0,0,0.3);
-    -webkit-box-shadow:0 5px 5px rgba(0,0,0,0.3);
-    box-shadow:0 5px 5px rgba(0,0,0,0.3);  
-}
-   
 .vl {
     border-left: 6px solid green;
     height: 1000px;
@@ -172,4 +165,49 @@ header{
     position: absolute;
     left: 750;
     top:116;
+}
+
+@media only screen and (max-width: 600px){
+    h1{
+        font-size: 30pt;
+        padding:  0%  10% 0% 20%;
+        
+    }
+    header{
+        background-color: rgb(34, 83, 34);
+        margin-left: 0%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        height: 80px;
+        
+    
+    }
+    .dexter{
+        border: 0px;
+    margin: 15px;
+    padding: 0px;
+    background-color: rgb(34, 83, 34);
+    font-size: 20px;
+    color: aliceblue;
+    }
+    .holder1{
+        position: relative;
+        left: 0%;
+        top: 1px;
+    }
+    .holder2{
+        position: relative;
+        left: 100px;
+        bottom: 55px;
+    }
+    .holder3{
+        position: relative;
+        left: -2px;
+        bottom: 80px ;
+    }
+    Black{
+        color: black;
+        font-size: 15pt;
+    }
+   
 }
