@@ -167,6 +167,19 @@ header{
     top:116;
 }
 
+.Blue{
+    color: blue;
+    font-size: 60pt;
+    
+}
+.blueheader{
+    background-color: rgb(78, 108, 163);
+    margin-left: 0px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    height: 15px;
+    width: 600px;
+}
 @media only screen and (min-width: 0) and (max-width: 800px) {
     h1{
         font-size: 30pt;
@@ -208,6 +221,22 @@ header{
     Black{
         color: black;
         font-size: 15pt;
-    }
-   
+    } 
+.Blue{
+    color: blue;
+    font-size: 50pt;
+    
+}
+.blueheader{
+    background-color: rgb(78, 108, 163);
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 10x;
+    width: 600px;
+
+}
+u{
+    color: blue;
+}
 }
