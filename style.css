@@ -225,7 +225,7 @@ header{
 .Blue{
     color: blue;
     font-size: 50pt;
-    
+    margin: 50%;
 }
 .blueheader{
     background-color: rgb(78, 108, 163);
