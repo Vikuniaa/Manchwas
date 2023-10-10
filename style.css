@@ -260,10 +260,11 @@ krewipopiol u{
     color: rgb(0, 0, 0);
 }
 .opis{
-    font-size: 15px;
+    font-size: 20px;
     position:absolute;
     right:20px;
     top: 120px;
+    text-align: right;
 }
 
 }
