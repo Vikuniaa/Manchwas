@@ -122,7 +122,7 @@ color: aliceblue;
     top: 108;
 }
 header {
-    background-color: rgb(83, 34, 34);
+    background-color: rgb(34, 83, 34);
     margin-left: 0px;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -230,7 +230,7 @@ zaplanowano{
         
     }
     header{
-        background-color:  rgb(83, 34, 34);
+        background-color:  green;
         margin-left: 0%;
         margin-top: 0%;
         margin-bottom: 0%;
